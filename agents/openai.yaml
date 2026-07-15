@@ -1,1 +1,7 @@
+interface:
+  display_name: "MARD 拼豆施工图"
+  short_description: "把图片转换为MARD 291色拼豆预览、底板建议和可直接施工的色号图"
+  default_prompt: "使用 $mard-perler-pattern 根据图片和用途建议实际图案格数，按2.6mm豆距计算成品尺寸，先生成clean与dither预览，再交付一张完整施工图PNG和一个PDF；所有可见文字使用简体中文。"
+policy:
+  allow_implicit_invocation: true
 
