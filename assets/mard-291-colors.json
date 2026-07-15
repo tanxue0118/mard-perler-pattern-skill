@@ -1,0 +1,4629 @@
+{
+  "schema_version": "1.0",
+  "palette_id": "mard-291",
+  "color_count": 291,
+  "sources": [
+    {
+      "name": "Zippland/perler-beads",
+      "commit": "2efee730f73dd4eb472ebde443a022d11f98bc21",
+      "path": "src/app/colorSystemMapping.json",
+      "sha256": "eb24997c62073e68f5c821a86f2f4ec75cc19825bec90b812f4dca4a61c75047"
+    },
+    {
+      "name": "maxcleme/beadcolors",
+      "commit": "29229889daab404fb30531d4bb785fd73f7f58e3",
+      "path": "raw/mard.csv",
+      "sha256": "623d229ace064a7ace700489ed98fa35e512300a574d9df2d94c7d01d5114dfa"
+    }
+  ],
+  "corrections": [
+    {
+      "code": "R11",
+      "canonical_hex": "#FFEBFA",
+      "legacy_hex": "#FFEBFB",
+      "reason": "Pinned beadcolors source and confirmed canonical decision."
+    }
+  ],
+  "known_hex_collisions": [
+    {
+      "hex": "#FFEBFA",
+      "codes": [
+        "Q04",
+        "R11"
+      ],
+      "reason": "The pinned beadcolors source assigns the same RGB value to both codes."
+    }
+  ],
+  "integrity": {
+    "normalized_colors_sha256": "6dd3ee913a4c8e9e20819730be2f1185d7ebeb8f455fb51392572bd96bc2a15e"
+  },
+  "colors": [
+    {
+      "code": "A01",
+      "aliases": [
+        "A1"
+      ],
+      "series": "A",
+      "index": 1,
+      "hex": "#FAF4C8",
+      "rgb": {
+        "r": 250,
+        "g": 244,
+        "b": 200
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "A02",
+      "aliases": [
+        "A2"
+      ],
+      "series": "A",
+      "index": 2,
+      "hex": "#FFFFD5",
+      "rgb": {
+        "r": 255,
+        "g": 255,
+        "b": 213
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "A03",
+      "aliases": [
+        "A3"
+      ],
+      "series": "A",
+      "index": 3,
+      "hex": "#FEFF8B",
+      "rgb": {
+        "r": 254,
+        "g": 255,
+        "b": 139
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "A04",
+      "aliases": [
+        "A4"
+      ],
+      "series": "A",
+      "index": 4,
+      "hex": "#FBED56",
+      "rgb": {
+        "r": 251,
+        "g": 237,
+        "b": 86
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "A05",
+      "aliases": [
+        "A5"
+      ],
+      "series": "A",
+      "index": 5,
+      "hex": "#F4D738",
+      "rgb": {
+        "r": 244,
+        "g": 215,
+        "b": 56
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "A06",
+      "aliases": [
+        "A6"
+      ],
+      "series": "A",
+      "index": 6,
+      "hex": "#FEAC4C",
+      "rgb": {
+        "r": 254,
+        "g": 172,
+        "b": 76
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "A07",
+      "aliases": [
+        "A7"
+      ],
+      "series": "A",
+      "index": 7,
+      "hex": "#FE8B4C",
+      "rgb": {
+        "r": 254,
+        "g": 139,
+        "b": 76
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "A08",
+      "aliases": [
+        "A8"
+      ],
+      "series": "A",
+      "index": 8,
+      "hex": "#FFDA45",
+      "rgb": {
+        "r": 255,
+        "g": 218,
+        "b": 69
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "A09",
+      "aliases": [
+        "A9"
+      ],
+      "series": "A",
+      "index": 9,
+      "hex": "#FF995B",
+      "rgb": {
+        "r": 255,
+        "g": 153,
+        "b": 91
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "A10",
+      "aliases": [],
+      "series": "A",
+      "index": 10,
+      "hex": "#F77C31",
+      "rgb": {
+        "r": 247,
+        "g": 124,
+        "b": 49
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "A11",
+      "aliases": [],
+      "series": "A",
+      "index": 11,
+      "hex": "#FFDD99",
+      "rgb": {
+        "r": 255,
+        "g": 221,
+        "b": 153
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "A12",
+      "aliases": [],
+      "series": "A",
+      "index": 12,
+      "hex": "#FE9F72",
+      "rgb": {
+        "r": 254,
+        "g": 159,
+        "b": 114
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "A13",
+      "aliases": [],
+      "series": "A",
+      "index": 13,
+      "hex": "#FFC365",
+      "rgb": {
+        "r": 255,
+        "g": 195,
+        "b": 101
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "A14",
+      "aliases": [],
+      "series": "A",
+      "index": 14,
+      "hex": "#FD543D",
+      "rgb": {
+        "r": 253,
+        "g": 84,
+        "b": 61
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "A15",
+      "aliases": [],
+      "series": "A",
+      "index": 15,
+      "hex": "#FFF365",
+      "rgb": {
+        "r": 255,
+        "g": 243,
+        "b": 101
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "A16",
+      "aliases": [],
+      "series": "A",
+      "index": 16,
+      "hex": "#FFFF9F",
+      "rgb": {
+        "r": 255,
+        "g": 255,
+        "b": 159
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "A17",
+      "aliases": [],
+      "series": "A",
+      "index": 17,
+      "hex": "#FFE36E",
+      "rgb": {
+        "r": 255,
+        "g": 227,
+        "b": 110
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "A18",
+      "aliases": [],
+      "series": "A",
+      "index": 18,
+      "hex": "#FEBE7D",
+      "rgb": {
+        "r": 254,
+        "g": 190,
+        "b": 125
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "A19",
+      "aliases": [],
+      "series": "A",
+      "index": 19,
+      "hex": "#FD7C72",
+      "rgb": {
+        "r": 253,
+        "g": 124,
+        "b": 114
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "A20",
+      "aliases": [],
+      "series": "A",
+      "index": 20,
+      "hex": "#FFD568",
+      "rgb": {
+        "r": 255,
+        "g": 213,
+        "b": 104
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "A21",
+      "aliases": [],
+      "series": "A",
+      "index": 21,
+      "hex": "#FFE395",
+      "rgb": {
+        "r": 255,
+        "g": 227,
+        "b": 149
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "A22",
+      "aliases": [],
+      "series": "A",
+      "index": 22,
+      "hex": "#F4F57D",
+      "rgb": {
+        "r": 244,
+        "g": 245,
+        "b": 125
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "A23",
+      "aliases": [],
+      "series": "A",
+      "index": 23,
+      "hex": "#E6C9B7",
+      "rgb": {
+        "r": 230,
+        "g": 201,
+        "b": 183
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "A24",
+      "aliases": [],
+      "series": "A",
+      "index": 24,
+      "hex": "#F7F8A2",
+      "rgb": {
+        "r": 247,
+        "g": 248,
+        "b": 162
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "A25",
+      "aliases": [],
+      "series": "A",
+      "index": 25,
+      "hex": "#FFD67D",
+      "rgb": {
+        "r": 255,
+        "g": 214,
+        "b": 125
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "A26",
+      "aliases": [],
+      "series": "A",
+      "index": 26,
+      "hex": "#FFC830",
+      "rgb": {
+        "r": 255,
+        "g": 200,
+        "b": 48
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "B01",
+      "aliases": [
+        "B1"
+      ],
+      "series": "B",
+      "index": 1,
+      "hex": "#E6EE31",
+      "rgb": {
+        "r": 230,
+        "g": 238,
+        "b": 49
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "B02",
+      "aliases": [
+        "B2"
+      ],
+      "series": "B",
+      "index": 2,
+      "hex": "#63F347",
+      "rgb": {
+        "r": 99,
+        "g": 243,
+        "b": 71
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "B03",
+      "aliases": [
+        "B3"
+      ],
+      "series": "B",
+      "index": 3,
+      "hex": "#9EF780",
+      "rgb": {
+        "r": 158,
+        "g": 247,
+        "b": 128
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "B04",
+      "aliases": [
+        "B4"
+      ],
+      "series": "B",
+      "index": 4,
+      "hex": "#5DE035",
+      "rgb": {
+        "r": 93,
+        "g": 224,
+        "b": 53
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "B05",
+      "aliases": [
+        "B5"
+      ],
+      "series": "B",
+      "index": 5,
+      "hex": "#35E352",
+      "rgb": {
+        "r": 53,
+        "g": 227,
+        "b": 82
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "B06",
+      "aliases": [
+        "B6"
+      ],
+      "series": "B",
+      "index": 6,
+      "hex": "#65E2A6",
+      "rgb": {
+        "r": 101,
+        "g": 226,
+        "b": 166
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "B07",
+      "aliases": [
+        "B7"
+      ],
+      "series": "B",
+      "index": 7,
+      "hex": "#3DAF80",
+      "rgb": {
+        "r": 61,
+        "g": 175,
+        "b": 128
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "B08",
+      "aliases": [
+        "B8"
+      ],
+      "series": "B",
+      "index": 8,
+      "hex": "#1C9C4F",
+      "rgb": {
+        "r": 28,
+        "g": 156,
+        "b": 79
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "B09",
+      "aliases": [
+        "B9"
+      ],
+      "series": "B",
+      "index": 9,
+      "hex": "#27523A",
+      "rgb": {
+        "r": 39,
+        "g": 82,
+        "b": 58
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "B10",
+      "aliases": [],
+      "series": "B",
+      "index": 10,
+      "hex": "#95D3C2",
+      "rgb": {
+        "r": 149,
+        "g": 211,
+        "b": 194
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "B11",
+      "aliases": [],
+      "series": "B",
+      "index": 11,
+      "hex": "#5D722A",
+      "rgb": {
+        "r": 93,
+        "g": 114,
+        "b": 42
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "B12",
+      "aliases": [],
+      "series": "B",
+      "index": 12,
+      "hex": "#166F41",
+      "rgb": {
+        "r": 22,
+        "g": 111,
+        "b": 65
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "B13",
+      "aliases": [],
+      "series": "B",
+      "index": 13,
+      "hex": "#CAEB7B",
+      "rgb": {
+        "r": 202,
+        "g": 235,
+        "b": 123
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "B14",
+      "aliases": [],
+      "series": "B",
+      "index": 14,
+      "hex": "#ADE946",
+      "rgb": {
+        "r": 173,
+        "g": 233,
+        "b": 70
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "B15",
+      "aliases": [],
+      "series": "B",
+      "index": 15,
+      "hex": "#2E5132",
+      "rgb": {
+        "r": 46,
+        "g": 81,
+        "b": 50
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "B16",
+      "aliases": [],
+      "series": "B",
+      "index": 16,
+      "hex": "#C5ED9C",
+      "rgb": {
+        "r": 197,
+        "g": 237,
+        "b": 156
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "B17",
+      "aliases": [],
+      "series": "B",
+      "index": 17,
+      "hex": "#9BB13A",
+      "rgb": {
+        "r": 155,
+        "g": 177,
+        "b": 58
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "B18",
+      "aliases": [],
+      "series": "B",
+      "index": 18,
+      "hex": "#E6EE49",
+      "rgb": {
+        "r": 230,
+        "g": 238,
+        "b": 73
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "B19",
+      "aliases": [],
+      "series": "B",
+      "index": 19,
+      "hex": "#24B88C",
+      "rgb": {
+        "r": 36,
+        "g": 184,
+        "b": 140
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "B20",
+      "aliases": [],
+      "series": "B",
+      "index": 20,
+      "hex": "#C2F0CC",
+      "rgb": {
+        "r": 194,
+        "g": 240,
+        "b": 204
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "B21",
+      "aliases": [],
+      "series": "B",
+      "index": 21,
+      "hex": "#156A6B",
+      "rgb": {
+        "r": 21,
+        "g": 106,
+        "b": 107
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "B22",
+      "aliases": [],
+      "series": "B",
+      "index": 22,
+      "hex": "#0B3C43",
+      "rgb": {
+        "r": 11,
+        "g": 60,
+        "b": 67
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "B23",
+      "aliases": [],
+      "series": "B",
+      "index": 23,
+      "hex": "#303A21",
+      "rgb": {
+        "r": 48,
+        "g": 58,
+        "b": 33
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "B24",
+      "aliases": [],
+      "series": "B",
+      "index": 24,
+      "hex": "#EEFCA5",
+      "rgb": {
+        "r": 238,
+        "g": 252,
+        "b": 165
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "B25",
+      "aliases": [],
+      "series": "B",
+      "index": 25,
+      "hex": "#4E846D",
+      "rgb": {
+        "r": 78,
+        "g": 132,
+        "b": 109
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "B26",
+      "aliases": [],
+      "series": "B",
+      "index": 26,
+      "hex": "#8D7A35",
+      "rgb": {
+        "r": 141,
+        "g": 122,
+        "b": 53
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "B27",
+      "aliases": [],
+      "series": "B",
+      "index": 27,
+      "hex": "#CCE1AF",
+      "rgb": {
+        "r": 204,
+        "g": 225,
+        "b": 175
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "B28",
+      "aliases": [],
+      "series": "B",
+      "index": 28,
+      "hex": "#9EE5B9",
+      "rgb": {
+        "r": 158,
+        "g": 229,
+        "b": 185
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "B29",
+      "aliases": [],
+      "series": "B",
+      "index": 29,
+      "hex": "#C5E254",
+      "rgb": {
+        "r": 197,
+        "g": 226,
+        "b": 84
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "B30",
+      "aliases": [],
+      "series": "B",
+      "index": 30,
+      "hex": "#E2FCB1",
+      "rgb": {
+        "r": 226,
+        "g": 252,
+        "b": 177
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "B31",
+      "aliases": [],
+      "series": "B",
+      "index": 31,
+      "hex": "#B0E792",
+      "rgb": {
+        "r": 176,
+        "g": 231,
+        "b": 146
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "B32",
+      "aliases": [],
+      "series": "B",
+      "index": 32,
+      "hex": "#9CAB5A",
+      "rgb": {
+        "r": 156,
+        "g": 171,
+        "b": 90
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "C01",
+      "aliases": [
+        "C1"
+      ],
+      "series": "C",
+      "index": 1,
+      "hex": "#E8FFE7",
+      "rgb": {
+        "r": 232,
+        "g": 255,
+        "b": 231
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "C02",
+      "aliases": [
+        "C2"
+      ],
+      "series": "C",
+      "index": 2,
+      "hex": "#A9F9FC",
+      "rgb": {
+        "r": 169,
+        "g": 249,
+        "b": 252
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "C03",
+      "aliases": [
+        "C3"
+      ],
+      "series": "C",
+      "index": 3,
+      "hex": "#A0E2FB",
+      "rgb": {
+        "r": 160,
+        "g": 226,
+        "b": 251
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "C04",
+      "aliases": [
+        "C4"
+      ],
+      "series": "C",
+      "index": 4,
+      "hex": "#41CCFF",
+      "rgb": {
+        "r": 65,
+        "g": 204,
+        "b": 255
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "C05",
+      "aliases": [
+        "C5"
+      ],
+      "series": "C",
+      "index": 5,
+      "hex": "#01ACEB",
+      "rgb": {
+        "r": 1,
+        "g": 172,
+        "b": 235
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "C06",
+      "aliases": [
+        "C6"
+      ],
+      "series": "C",
+      "index": 6,
+      "hex": "#50AAF0",
+      "rgb": {
+        "r": 80,
+        "g": 170,
+        "b": 240
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "C07",
+      "aliases": [
+        "C7"
+      ],
+      "series": "C",
+      "index": 7,
+      "hex": "#3677D2",
+      "rgb": {
+        "r": 54,
+        "g": 119,
+        "b": 210
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "C08",
+      "aliases": [
+        "C8"
+      ],
+      "series": "C",
+      "index": 8,
+      "hex": "#0F54C0",
+      "rgb": {
+        "r": 15,
+        "g": 84,
+        "b": 192
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "C09",
+      "aliases": [
+        "C9"
+      ],
+      "series": "C",
+      "index": 9,
+      "hex": "#324BCA",
+      "rgb": {
+        "r": 50,
+        "g": 75,
+        "b": 202
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "C10",
+      "aliases": [],
+      "series": "C",
+      "index": 10,
+      "hex": "#3EBCE2",
+      "rgb": {
+        "r": 62,
+        "g": 188,
+        "b": 226
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "C11",
+      "aliases": [],
+      "series": "C",
+      "index": 11,
+      "hex": "#28DDDE",
+      "rgb": {
+        "r": 40,
+        "g": 221,
+        "b": 222
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "C12",
+      "aliases": [],
+      "series": "C",
+      "index": 12,
+      "hex": "#1C334D",
+      "rgb": {
+        "r": 28,
+        "g": 51,
+        "b": 77
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "C13",
+      "aliases": [],
+      "series": "C",
+      "index": 13,
+      "hex": "#CDE8FF",
+      "rgb": {
+        "r": 205,
+        "g": 232,
+        "b": 255
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "C14",
+      "aliases": [],
+      "series": "C",
+      "index": 14,
+      "hex": "#D5FDFF",
+      "rgb": {
+        "r": 213,
+        "g": 253,
+        "b": 255
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "C15",
+      "aliases": [],
+      "series": "C",
+      "index": 15,
+      "hex": "#22C4C6",
+      "rgb": {
+        "r": 34,
+        "g": 196,
+        "b": 198
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "C16",
+      "aliases": [],
+      "series": "C",
+      "index": 16,
+      "hex": "#1557A8",
+      "rgb": {
+        "r": 21,
+        "g": 87,
+        "b": 168
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "C17",
+      "aliases": [],
+      "series": "C",
+      "index": 17,
+      "hex": "#04D1F6",
+      "rgb": {
+        "r": 4,
+        "g": 209,
+        "b": 246
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "C18",
+      "aliases": [],
+      "series": "C",
+      "index": 18,
+      "hex": "#1D3344",
+      "rgb": {
+        "r": 29,
+        "g": 51,
+        "b": 68
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "C19",
+      "aliases": [],
+      "series": "C",
+      "index": 19,
+      "hex": "#1887A2",
+      "rgb": {
+        "r": 24,
+        "g": 135,
+        "b": 162
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "C20",
+      "aliases": [],
+      "series": "C",
+      "index": 20,
+      "hex": "#176DAF",
+      "rgb": {
+        "r": 23,
+        "g": 109,
+        "b": 175
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "C21",
+      "aliases": [],
+      "series": "C",
+      "index": 21,
+      "hex": "#BEDDFF",
+      "rgb": {
+        "r": 190,
+        "g": 221,
+        "b": 255
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "C22",
+      "aliases": [],
+      "series": "C",
+      "index": 22,
+      "hex": "#67B4BE",
+      "rgb": {
+        "r": 103,
+        "g": 180,
+        "b": 190
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "C23",
+      "aliases": [],
+      "series": "C",
+      "index": 23,
+      "hex": "#C8E2FF",
+      "rgb": {
+        "r": 200,
+        "g": 226,
+        "b": 255
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "C24",
+      "aliases": [],
+      "series": "C",
+      "index": 24,
+      "hex": "#7CC4FF",
+      "rgb": {
+        "r": 124,
+        "g": 196,
+        "b": 255
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "C25",
+      "aliases": [],
+      "series": "C",
+      "index": 25,
+      "hex": "#A9E5E5",
+      "rgb": {
+        "r": 169,
+        "g": 229,
+        "b": 229
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "C26",
+      "aliases": [],
+      "series": "C",
+      "index": 26,
+      "hex": "#3CAED8",
+      "rgb": {
+        "r": 60,
+        "g": 174,
+        "b": 216
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "C27",
+      "aliases": [],
+      "series": "C",
+      "index": 27,
+      "hex": "#D3DFFA",
+      "rgb": {
+        "r": 211,
+        "g": 223,
+        "b": 250
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "C28",
+      "aliases": [],
+      "series": "C",
+      "index": 28,
+      "hex": "#BBCFED",
+      "rgb": {
+        "r": 187,
+        "g": 207,
+        "b": 237
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "C29",
+      "aliases": [],
+      "series": "C",
+      "index": 29,
+      "hex": "#34488E",
+      "rgb": {
+        "r": 52,
+        "g": 72,
+        "b": 142
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "D01",
+      "aliases": [
+        "D1"
+      ],
+      "series": "D",
+      "index": 1,
+      "hex": "#AEB4F2",
+      "rgb": {
+        "r": 174,
+        "g": 180,
+        "b": 242
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "D02",
+      "aliases": [
+        "D2"
+      ],
+      "series": "D",
+      "index": 2,
+      "hex": "#858EDD",
+      "rgb": {
+        "r": 133,
+        "g": 142,
+        "b": 221
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "D03",
+      "aliases": [
+        "D3"
+      ],
+      "series": "D",
+      "index": 3,
+      "hex": "#2F54AF",
+      "rgb": {
+        "r": 47,
+        "g": 84,
+        "b": 175
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "D04",
+      "aliases": [
+        "D4"
+      ],
+      "series": "D",
+      "index": 4,
+      "hex": "#182A84",
+      "rgb": {
+        "r": 24,
+        "g": 42,
+        "b": 132
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "D05",
+      "aliases": [
+        "D5"
+      ],
+      "series": "D",
+      "index": 5,
+      "hex": "#B843C5",
+      "rgb": {
+        "r": 184,
+        "g": 67,
+        "b": 197
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "D06",
+      "aliases": [
+        "D6"
+      ],
+      "series": "D",
+      "index": 6,
+      "hex": "#AC7BDE",
+      "rgb": {
+        "r": 172,
+        "g": 123,
+        "b": 222
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "D07",
+      "aliases": [
+        "D7"
+      ],
+      "series": "D",
+      "index": 7,
+      "hex": "#8854B3",
+      "rgb": {
+        "r": 136,
+        "g": 84,
+        "b": 179
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "D08",
+      "aliases": [
+        "D8"
+      ],
+      "series": "D",
+      "index": 8,
+      "hex": "#E2D3FF",
+      "rgb": {
+        "r": 226,
+        "g": 211,
+        "b": 255
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "D09",
+      "aliases": [
+        "D9"
+      ],
+      "series": "D",
+      "index": 9,
+      "hex": "#D5B9F8",
+      "rgb": {
+        "r": 213,
+        "g": 185,
+        "b": 248
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "D10",
+      "aliases": [],
+      "series": "D",
+      "index": 10,
+      "hex": "#361851",
+      "rgb": {
+        "r": 54,
+        "g": 24,
+        "b": 81
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "D11",
+      "aliases": [],
+      "series": "D",
+      "index": 11,
+      "hex": "#B9BAE1",
+      "rgb": {
+        "r": 185,
+        "g": 186,
+        "b": 225
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "D12",
+      "aliases": [],
+      "series": "D",
+      "index": 12,
+      "hex": "#DE9AD4",
+      "rgb": {
+        "r": 222,
+        "g": 154,
+        "b": 212
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "D13",
+      "aliases": [],
+      "series": "D",
+      "index": 13,
+      "hex": "#B90095",
+      "rgb": {
+        "r": 185,
+        "g": 0,
+        "b": 149
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "D14",
+      "aliases": [],
+      "series": "D",
+      "index": 14,
+      "hex": "#8B279B",
+      "rgb": {
+        "r": 139,
+        "g": 39,
+        "b": 155
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "D15",
+      "aliases": [],
+      "series": "D",
+      "index": 15,
+      "hex": "#2F1F90",
+      "rgb": {
+        "r": 47,
+        "g": 31,
+        "b": 144
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "D16",
+      "aliases": [],
+      "series": "D",
+      "index": 16,
+      "hex": "#E3E1EE",
+      "rgb": {
+        "r": 227,
+        "g": 225,
+        "b": 238
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "D17",
+      "aliases": [],
+      "series": "D",
+      "index": 17,
+      "hex": "#C4D4F6",
+      "rgb": {
+        "r": 196,
+        "g": 212,
+        "b": 246
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "D18",
+      "aliases": [],
+      "series": "D",
+      "index": 18,
+      "hex": "#A45EC7",
+      "rgb": {
+        "r": 164,
+        "g": 94,
+        "b": 199
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "D19",
+      "aliases": [],
+      "series": "D",
+      "index": 19,
+      "hex": "#D8C3D7",
+      "rgb": {
+        "r": 216,
+        "g": 195,
+        "b": 215
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "D20",
+      "aliases": [],
+      "series": "D",
+      "index": 20,
+      "hex": "#9C32B2",
+      "rgb": {
+        "r": 156,
+        "g": 50,
+        "b": 178
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "D21",
+      "aliases": [],
+      "series": "D",
+      "index": 21,
+      "hex": "#9A009B",
+      "rgb": {
+        "r": 154,
+        "g": 0,
+        "b": 155
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "D22",
+      "aliases": [],
+      "series": "D",
+      "index": 22,
+      "hex": "#333A95",
+      "rgb": {
+        "r": 51,
+        "g": 58,
+        "b": 149
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "D23",
+      "aliases": [],
+      "series": "D",
+      "index": 23,
+      "hex": "#EBDAFC",
+      "rgb": {
+        "r": 235,
+        "g": 218,
+        "b": 252
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "D24",
+      "aliases": [],
+      "series": "D",
+      "index": 24,
+      "hex": "#7786E5",
+      "rgb": {
+        "r": 119,
+        "g": 134,
+        "b": 229
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "D25",
+      "aliases": [],
+      "series": "D",
+      "index": 25,
+      "hex": "#494FC7",
+      "rgb": {
+        "r": 73,
+        "g": 79,
+        "b": 199
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "D26",
+      "aliases": [],
+      "series": "D",
+      "index": 26,
+      "hex": "#DFC2F8",
+      "rgb": {
+        "r": 223,
+        "g": 194,
+        "b": 248
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "E01",
+      "aliases": [
+        "E1"
+      ],
+      "series": "E",
+      "index": 1,
+      "hex": "#FDD3CC",
+      "rgb": {
+        "r": 253,
+        "g": 211,
+        "b": 204
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "E02",
+      "aliases": [
+        "E2"
+      ],
+      "series": "E",
+      "index": 2,
+      "hex": "#FEC0DF",
+      "rgb": {
+        "r": 254,
+        "g": 192,
+        "b": 223
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "E03",
+      "aliases": [
+        "E3"
+      ],
+      "series": "E",
+      "index": 3,
+      "hex": "#FFB7E7",
+      "rgb": {
+        "r": 255,
+        "g": 183,
+        "b": 231
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "E04",
+      "aliases": [
+        "E4"
+      ],
+      "series": "E",
+      "index": 4,
+      "hex": "#E8649E",
+      "rgb": {
+        "r": 232,
+        "g": 100,
+        "b": 158
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "E05",
+      "aliases": [
+        "E5"
+      ],
+      "series": "E",
+      "index": 5,
+      "hex": "#F551A2",
+      "rgb": {
+        "r": 245,
+        "g": 81,
+        "b": 162
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "E06",
+      "aliases": [
+        "E6"
+      ],
+      "series": "E",
+      "index": 6,
+      "hex": "#F13D74",
+      "rgb": {
+        "r": 241,
+        "g": 61,
+        "b": 116
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "E07",
+      "aliases": [
+        "E7"
+      ],
+      "series": "E",
+      "index": 7,
+      "hex": "#C63478",
+      "rgb": {
+        "r": 198,
+        "g": 52,
+        "b": 120
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "E08",
+      "aliases": [
+        "E8"
+      ],
+      "series": "E",
+      "index": 8,
+      "hex": "#FFDBE9",
+      "rgb": {
+        "r": 255,
+        "g": 219,
+        "b": 233
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "E09",
+      "aliases": [
+        "E9"
+      ],
+      "series": "E",
+      "index": 9,
+      "hex": "#E970CC",
+      "rgb": {
+        "r": 233,
+        "g": 112,
+        "b": 204
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "E10",
+      "aliases": [],
+      "series": "E",
+      "index": 10,
+      "hex": "#D33793",
+      "rgb": {
+        "r": 211,
+        "g": 55,
+        "b": 147
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "E11",
+      "aliases": [],
+      "series": "E",
+      "index": 11,
+      "hex": "#FCDDD2",
+      "rgb": {
+        "r": 252,
+        "g": 221,
+        "b": 210
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "E12",
+      "aliases": [],
+      "series": "E",
+      "index": 12,
+      "hex": "#F78FC3",
+      "rgb": {
+        "r": 247,
+        "g": 143,
+        "b": 195
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "E13",
+      "aliases": [],
+      "series": "E",
+      "index": 13,
+      "hex": "#B5006D",
+      "rgb": {
+        "r": 181,
+        "g": 0,
+        "b": 109
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "E14",
+      "aliases": [],
+      "series": "E",
+      "index": 14,
+      "hex": "#FFD1BA",
+      "rgb": {
+        "r": 255,
+        "g": 209,
+        "b": 186
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "E15",
+      "aliases": [],
+      "series": "E",
+      "index": 15,
+      "hex": "#F8C7C9",
+      "rgb": {
+        "r": 248,
+        "g": 199,
+        "b": 201
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "E16",
+      "aliases": [],
+      "series": "E",
+      "index": 16,
+      "hex": "#FFF3EB",
+      "rgb": {
+        "r": 255,
+        "g": 243,
+        "b": 235
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "E17",
+      "aliases": [],
+      "series": "E",
+      "index": 17,
+      "hex": "#FFE2EA",
+      "rgb": {
+        "r": 255,
+        "g": 226,
+        "b": 234
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "E18",
+      "aliases": [],
+      "series": "E",
+      "index": 18,
+      "hex": "#FFC7DB",
+      "rgb": {
+        "r": 255,
+        "g": 199,
+        "b": 219
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "E19",
+      "aliases": [],
+      "series": "E",
+      "index": 19,
+      "hex": "#FEBAD5",
+      "rgb": {
+        "r": 254,
+        "g": 186,
+        "b": 213
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "E20",
+      "aliases": [],
+      "series": "E",
+      "index": 20,
+      "hex": "#D8C7D1",
+      "rgb": {
+        "r": 216,
+        "g": 199,
+        "b": 209
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "E21",
+      "aliases": [],
+      "series": "E",
+      "index": 21,
+      "hex": "#BD9DA1",
+      "rgb": {
+        "r": 189,
+        "g": 157,
+        "b": 161
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "E22",
+      "aliases": [],
+      "series": "E",
+      "index": 22,
+      "hex": "#B785A1",
+      "rgb": {
+        "r": 183,
+        "g": 133,
+        "b": 161
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "E23",
+      "aliases": [],
+      "series": "E",
+      "index": 23,
+      "hex": "#937A8D",
+      "rgb": {
+        "r": 147,
+        "g": 122,
+        "b": 141
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "E24",
+      "aliases": [],
+      "series": "E",
+      "index": 24,
+      "hex": "#E1BCE8",
+      "rgb": {
+        "r": 225,
+        "g": 188,
+        "b": 232
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "F01",
+      "aliases": [
+        "F1"
+      ],
+      "series": "F",
+      "index": 1,
+      "hex": "#FD957B",
+      "rgb": {
+        "r": 253,
+        "g": 149,
+        "b": 123
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "F02",
+      "aliases": [
+        "F2"
+      ],
+      "series": "F",
+      "index": 2,
+      "hex": "#FC3D46",
+      "rgb": {
+        "r": 252,
+        "g": 61,
+        "b": 70
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "F03",
+      "aliases": [
+        "F3"
+      ],
+      "series": "F",
+      "index": 3,
+      "hex": "#F74941",
+      "rgb": {
+        "r": 247,
+        "g": 73,
+        "b": 65
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "F04",
+      "aliases": [
+        "F4"
+      ],
+      "series": "F",
+      "index": 4,
+      "hex": "#FC283C",
+      "rgb": {
+        "r": 252,
+        "g": 40,
+        "b": 60
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "F05",
+      "aliases": [
+        "F5"
+      ],
+      "series": "F",
+      "index": 5,
+      "hex": "#E7002F",
+      "rgb": {
+        "r": 231,
+        "g": 0,
+        "b": 47
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "F06",
+      "aliases": [
+        "F6"
+      ],
+      "series": "F",
+      "index": 6,
+      "hex": "#943630",
+      "rgb": {
+        "r": 148,
+        "g": 54,
+        "b": 48
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "F07",
+      "aliases": [
+        "F7"
+      ],
+      "series": "F",
+      "index": 7,
+      "hex": "#971937",
+      "rgb": {
+        "r": 151,
+        "g": 25,
+        "b": 55
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "F08",
+      "aliases": [
+        "F8"
+      ],
+      "series": "F",
+      "index": 8,
+      "hex": "#BC0028",
+      "rgb": {
+        "r": 188,
+        "g": 0,
+        "b": 40
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "F09",
+      "aliases": [
+        "F9"
+      ],
+      "series": "F",
+      "index": 9,
+      "hex": "#E2677A",
+      "rgb": {
+        "r": 226,
+        "g": 103,
+        "b": 122
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "F10",
+      "aliases": [],
+      "series": "F",
+      "index": 10,
+      "hex": "#8A4526",
+      "rgb": {
+        "r": 138,
+        "g": 69,
+        "b": 38
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "F11",
+      "aliases": [],
+      "series": "F",
+      "index": 11,
+      "hex": "#5A2121",
+      "rgb": {
+        "r": 90,
+        "g": 33,
+        "b": 33
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "F12",
+      "aliases": [],
+      "series": "F",
+      "index": 12,
+      "hex": "#FD4E6A",
+      "rgb": {
+        "r": 253,
+        "g": 78,
+        "b": 106
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "F13",
+      "aliases": [],
+      "series": "F",
+      "index": 13,
+      "hex": "#F35744",
+      "rgb": {
+        "r": 243,
+        "g": 87,
+        "b": 68
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "F14",
+      "aliases": [],
+      "series": "F",
+      "index": 14,
+      "hex": "#FFA9AD",
+      "rgb": {
+        "r": 255,
+        "g": 169,
+        "b": 173
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "F15",
+      "aliases": [],
+      "series": "F",
+      "index": 15,
+      "hex": "#D30022",
+      "rgb": {
+        "r": 211,
+        "g": 0,
+        "b": 34
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "F16",
+      "aliases": [],
+      "series": "F",
+      "index": 16,
+      "hex": "#FEC2A6",
+      "rgb": {
+        "r": 254,
+        "g": 194,
+        "b": 166
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "F17",
+      "aliases": [],
+      "series": "F",
+      "index": 17,
+      "hex": "#E69C79",
+      "rgb": {
+        "r": 230,
+        "g": 156,
+        "b": 121
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "F18",
+      "aliases": [],
+      "series": "F",
+      "index": 18,
+      "hex": "#D37C46",
+      "rgb": {
+        "r": 211,
+        "g": 124,
+        "b": 70
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "F19",
+      "aliases": [],
+      "series": "F",
+      "index": 19,
+      "hex": "#C1444A",
+      "rgb": {
+        "r": 193,
+        "g": 68,
+        "b": 74
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "F20",
+      "aliases": [],
+      "series": "F",
+      "index": 20,
+      "hex": "#CD9391",
+      "rgb": {
+        "r": 205,
+        "g": 147,
+        "b": 145
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "F21",
+      "aliases": [],
+      "series": "F",
+      "index": 21,
+      "hex": "#F7B4C6",
+      "rgb": {
+        "r": 247,
+        "g": 180,
+        "b": 198
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "F22",
+      "aliases": [],
+      "series": "F",
+      "index": 22,
+      "hex": "#FDC0D0",
+      "rgb": {
+        "r": 253,
+        "g": 192,
+        "b": 208
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "F23",
+      "aliases": [],
+      "series": "F",
+      "index": 23,
+      "hex": "#F67E66",
+      "rgb": {
+        "r": 246,
+        "g": 126,
+        "b": 102
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "F24",
+      "aliases": [],
+      "series": "F",
+      "index": 24,
+      "hex": "#E698AA",
+      "rgb": {
+        "r": 230,
+        "g": 152,
+        "b": 170
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "F25",
+      "aliases": [],
+      "series": "F",
+      "index": 25,
+      "hex": "#E54B4F",
+      "rgb": {
+        "r": 229,
+        "g": 75,
+        "b": 79
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "G01",
+      "aliases": [
+        "G1"
+      ],
+      "series": "G",
+      "index": 1,
+      "hex": "#FFE2CE",
+      "rgb": {
+        "r": 255,
+        "g": 226,
+        "b": 206
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "G02",
+      "aliases": [
+        "G2"
+      ],
+      "series": "G",
+      "index": 2,
+      "hex": "#FFC4AA",
+      "rgb": {
+        "r": 255,
+        "g": 196,
+        "b": 170
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "G03",
+      "aliases": [
+        "G3"
+      ],
+      "series": "G",
+      "index": 3,
+      "hex": "#F4C3A5",
+      "rgb": {
+        "r": 244,
+        "g": 195,
+        "b": 165
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "G04",
+      "aliases": [
+        "G4"
+      ],
+      "series": "G",
+      "index": 4,
+      "hex": "#E1B383",
+      "rgb": {
+        "r": 225,
+        "g": 179,
+        "b": 131
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "G05",
+      "aliases": [
+        "G5"
+      ],
+      "series": "G",
+      "index": 5,
+      "hex": "#EDB045",
+      "rgb": {
+        "r": 237,
+        "g": 176,
+        "b": 69
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "G06",
+      "aliases": [
+        "G6"
+      ],
+      "series": "G",
+      "index": 6,
+      "hex": "#E99C17",
+      "rgb": {
+        "r": 233,
+        "g": 156,
+        "b": 23
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "G07",
+      "aliases": [
+        "G7"
+      ],
+      "series": "G",
+      "index": 7,
+      "hex": "#9D5B3E",
+      "rgb": {
+        "r": 157,
+        "g": 91,
+        "b": 62
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "G08",
+      "aliases": [
+        "G8"
+      ],
+      "series": "G",
+      "index": 8,
+      "hex": "#753832",
+      "rgb": {
+        "r": 117,
+        "g": 56,
+        "b": 50
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "G09",
+      "aliases": [
+        "G9"
+      ],
+      "series": "G",
+      "index": 9,
+      "hex": "#E6B483",
+      "rgb": {
+        "r": 230,
+        "g": 180,
+        "b": 131
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "G10",
+      "aliases": [],
+      "series": "G",
+      "index": 10,
+      "hex": "#D98C39",
+      "rgb": {
+        "r": 217,
+        "g": 140,
+        "b": 57
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "G11",
+      "aliases": [],
+      "series": "G",
+      "index": 11,
+      "hex": "#E0C593",
+      "rgb": {
+        "r": 224,
+        "g": 197,
+        "b": 147
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "G12",
+      "aliases": [],
+      "series": "G",
+      "index": 12,
+      "hex": "#FFC890",
+      "rgb": {
+        "r": 255,
+        "g": 200,
+        "b": 144
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "G13",
+      "aliases": [],
+      "series": "G",
+      "index": 13,
+      "hex": "#B7714A",
+      "rgb": {
+        "r": 183,
+        "g": 113,
+        "b": 74
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "G14",
+      "aliases": [],
+      "series": "G",
+      "index": 14,
+      "hex": "#8D614C",
+      "rgb": {
+        "r": 141,
+        "g": 97,
+        "b": 76
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "G15",
+      "aliases": [],
+      "series": "G",
+      "index": 15,
+      "hex": "#FCF9E0",
+      "rgb": {
+        "r": 252,
+        "g": 249,
+        "b": 224
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "G16",
+      "aliases": [],
+      "series": "G",
+      "index": 16,
+      "hex": "#F2D9BA",
+      "rgb": {
+        "r": 242,
+        "g": 217,
+        "b": 186
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "G17",
+      "aliases": [],
+      "series": "G",
+      "index": 17,
+      "hex": "#78524B",
+      "rgb": {
+        "r": 120,
+        "g": 82,
+        "b": 75
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "G18",
+      "aliases": [],
+      "series": "G",
+      "index": 18,
+      "hex": "#FFE4CC",
+      "rgb": {
+        "r": 255,
+        "g": 228,
+        "b": 204
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "G19",
+      "aliases": [],
+      "series": "G",
+      "index": 19,
+      "hex": "#E07935",
+      "rgb": {
+        "r": 224,
+        "g": 121,
+        "b": 53
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "G20",
+      "aliases": [],
+      "series": "G",
+      "index": 20,
+      "hex": "#A94023",
+      "rgb": {
+        "r": 169,
+        "g": 64,
+        "b": 35
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "G21",
+      "aliases": [],
+      "series": "G",
+      "index": 21,
+      "hex": "#B88558",
+      "rgb": {
+        "r": 184,
+        "g": 133,
+        "b": 88
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "H01",
+      "aliases": [
+        "H1"
+      ],
+      "series": "H",
+      "index": 1,
+      "hex": "#FDFBFF",
+      "rgb": {
+        "r": 253,
+        "g": 251,
+        "b": 255
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "H02",
+      "aliases": [
+        "H2"
+      ],
+      "series": "H",
+      "index": 2,
+      "hex": "#FEFFFF",
+      "rgb": {
+        "r": 254,
+        "g": 255,
+        "b": 255
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "H03",
+      "aliases": [
+        "H3"
+      ],
+      "series": "H",
+      "index": 3,
+      "hex": "#B6B1BA",
+      "rgb": {
+        "r": 182,
+        "g": 177,
+        "b": 186
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "H04",
+      "aliases": [
+        "H4"
+      ],
+      "series": "H",
+      "index": 4,
+      "hex": "#89858C",
+      "rgb": {
+        "r": 137,
+        "g": 133,
+        "b": 140
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "H05",
+      "aliases": [
+        "H5"
+      ],
+      "series": "H",
+      "index": 5,
+      "hex": "#48464E",
+      "rgb": {
+        "r": 72,
+        "g": 70,
+        "b": 78
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "H06",
+      "aliases": [
+        "H6"
+      ],
+      "series": "H",
+      "index": 6,
+      "hex": "#2F2B2F",
+      "rgb": {
+        "r": 47,
+        "g": 43,
+        "b": 47
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "H07",
+      "aliases": [
+        "H7"
+      ],
+      "series": "H",
+      "index": 7,
+      "hex": "#000000",
+      "rgb": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "H08",
+      "aliases": [
+        "H8"
+      ],
+      "series": "H",
+      "index": 8,
+      "hex": "#E7D6DB",
+      "rgb": {
+        "r": 231,
+        "g": 214,
+        "b": 219
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "H09",
+      "aliases": [
+        "H9"
+      ],
+      "series": "H",
+      "index": 9,
+      "hex": "#EDEDED",
+      "rgb": {
+        "r": 237,
+        "g": 237,
+        "b": 237
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "H10",
+      "aliases": [],
+      "series": "H",
+      "index": 10,
+      "hex": "#EEE9EA",
+      "rgb": {
+        "r": 238,
+        "g": 233,
+        "b": 234
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "H11",
+      "aliases": [],
+      "series": "H",
+      "index": 11,
+      "hex": "#CECDD5",
+      "rgb": {
+        "r": 206,
+        "g": 205,
+        "b": 213
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "H12",
+      "aliases": [],
+      "series": "H",
+      "index": 12,
+      "hex": "#FFF5ED",
+      "rgb": {
+        "r": 255,
+        "g": 245,
+        "b": 237
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "H13",
+      "aliases": [],
+      "series": "H",
+      "index": 13,
+      "hex": "#F5ECD2",
+      "rgb": {
+        "r": 245,
+        "g": 236,
+        "b": 210
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "H14",
+      "aliases": [],
+      "series": "H",
+      "index": 14,
+      "hex": "#CFD7D3",
+      "rgb": {
+        "r": 207,
+        "g": 215,
+        "b": 211
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "H15",
+      "aliases": [],
+      "series": "H",
+      "index": 15,
+      "hex": "#98A6A8",
+      "rgb": {
+        "r": 152,
+        "g": 166,
+        "b": 168
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "H16",
+      "aliases": [],
+      "series": "H",
+      "index": 16,
+      "hex": "#1D1414",
+      "rgb": {
+        "r": 29,
+        "g": 20,
+        "b": 20
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "H17",
+      "aliases": [],
+      "series": "H",
+      "index": 17,
+      "hex": "#F1EDED",
+      "rgb": {
+        "r": 241,
+        "g": 237,
+        "b": 237
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "H18",
+      "aliases": [],
+      "series": "H",
+      "index": 18,
+      "hex": "#FFFDF0",
+      "rgb": {
+        "r": 255,
+        "g": 253,
+        "b": 240
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "H19",
+      "aliases": [],
+      "series": "H",
+      "index": 19,
+      "hex": "#F6EFE2",
+      "rgb": {
+        "r": 246,
+        "g": 239,
+        "b": 226
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "H20",
+      "aliases": [],
+      "series": "H",
+      "index": 20,
+      "hex": "#949FA3",
+      "rgb": {
+        "r": 148,
+        "g": 159,
+        "b": 163
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "H21",
+      "aliases": [],
+      "series": "H",
+      "index": 21,
+      "hex": "#FFFBE1",
+      "rgb": {
+        "r": 255,
+        "g": 251,
+        "b": 225
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "H22",
+      "aliases": [],
+      "series": "H",
+      "index": 22,
+      "hex": "#CACAD4",
+      "rgb": {
+        "r": 202,
+        "g": 202,
+        "b": 212
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "H23",
+      "aliases": [],
+      "series": "H",
+      "index": 23,
+      "hex": "#9A9D94",
+      "rgb": {
+        "r": 154,
+        "g": 157,
+        "b": 148
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "M01",
+      "aliases": [
+        "M1"
+      ],
+      "series": "M",
+      "index": 1,
+      "hex": "#BCC6B8",
+      "rgb": {
+        "r": 188,
+        "g": 198,
+        "b": 184
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "M02",
+      "aliases": [
+        "M2"
+      ],
+      "series": "M",
+      "index": 2,
+      "hex": "#8AA386",
+      "rgb": {
+        "r": 138,
+        "g": 163,
+        "b": 134
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "M03",
+      "aliases": [
+        "M3"
+      ],
+      "series": "M",
+      "index": 3,
+      "hex": "#697D80",
+      "rgb": {
+        "r": 105,
+        "g": 125,
+        "b": 128
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "M04",
+      "aliases": [
+        "M4"
+      ],
+      "series": "M",
+      "index": 4,
+      "hex": "#E3D2BC",
+      "rgb": {
+        "r": 227,
+        "g": 210,
+        "b": 188
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "M05",
+      "aliases": [
+        "M5"
+      ],
+      "series": "M",
+      "index": 5,
+      "hex": "#D0CCAA",
+      "rgb": {
+        "r": 208,
+        "g": 204,
+        "b": 170
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "M06",
+      "aliases": [
+        "M6"
+      ],
+      "series": "M",
+      "index": 6,
+      "hex": "#B0A782",
+      "rgb": {
+        "r": 176,
+        "g": 167,
+        "b": 130
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "M07",
+      "aliases": [
+        "M7"
+      ],
+      "series": "M",
+      "index": 7,
+      "hex": "#B4A497",
+      "rgb": {
+        "r": 180,
+        "g": 164,
+        "b": 151
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "M08",
+      "aliases": [
+        "M8"
+      ],
+      "series": "M",
+      "index": 8,
+      "hex": "#B38281",
+      "rgb": {
+        "r": 179,
+        "g": 130,
+        "b": 129
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "M09",
+      "aliases": [
+        "M9"
+      ],
+      "series": "M",
+      "index": 9,
+      "hex": "#A58767",
+      "rgb": {
+        "r": 165,
+        "g": 135,
+        "b": 103
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "M10",
+      "aliases": [],
+      "series": "M",
+      "index": 10,
+      "hex": "#C5B2BC",
+      "rgb": {
+        "r": 197,
+        "g": 178,
+        "b": 188
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "M11",
+      "aliases": [],
+      "series": "M",
+      "index": 11,
+      "hex": "#9F7594",
+      "rgb": {
+        "r": 159,
+        "g": 117,
+        "b": 148
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "M12",
+      "aliases": [],
+      "series": "M",
+      "index": 12,
+      "hex": "#644749",
+      "rgb": {
+        "r": 100,
+        "g": 71,
+        "b": 73
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "M13",
+      "aliases": [],
+      "series": "M",
+      "index": 13,
+      "hex": "#D19066",
+      "rgb": {
+        "r": 209,
+        "g": 144,
+        "b": 102
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "M14",
+      "aliases": [],
+      "series": "M",
+      "index": 14,
+      "hex": "#C77362",
+      "rgb": {
+        "r": 199,
+        "g": 115,
+        "b": 98
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "M15",
+      "aliases": [],
+      "series": "M",
+      "index": 15,
+      "hex": "#757D78",
+      "rgb": {
+        "r": 117,
+        "g": 125,
+        "b": 120
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "P01",
+      "aliases": [
+        "P1"
+      ],
+      "series": "P",
+      "index": 1,
+      "hex": "#FCF7F8",
+      "rgb": {
+        "r": 252,
+        "g": 247,
+        "b": 248
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "P02",
+      "aliases": [
+        "P2"
+      ],
+      "series": "P",
+      "index": 2,
+      "hex": "#B0A9AC",
+      "rgb": {
+        "r": 176,
+        "g": 169,
+        "b": 172
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "P03",
+      "aliases": [
+        "P3"
+      ],
+      "series": "P",
+      "index": 3,
+      "hex": "#AFDCAB",
+      "rgb": {
+        "r": 175,
+        "g": 220,
+        "b": 171
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "P04",
+      "aliases": [
+        "P4"
+      ],
+      "series": "P",
+      "index": 4,
+      "hex": "#FEA49F",
+      "rgb": {
+        "r": 254,
+        "g": 164,
+        "b": 159
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "P05",
+      "aliases": [
+        "P5"
+      ],
+      "series": "P",
+      "index": 5,
+      "hex": "#EE8C3E",
+      "rgb": {
+        "r": 238,
+        "g": 140,
+        "b": 62
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "P06",
+      "aliases": [
+        "P6"
+      ],
+      "series": "P",
+      "index": 6,
+      "hex": "#5FD0A7",
+      "rgb": {
+        "r": 95,
+        "g": 208,
+        "b": 167
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "P07",
+      "aliases": [
+        "P7"
+      ],
+      "series": "P",
+      "index": 7,
+      "hex": "#EB9270",
+      "rgb": {
+        "r": 235,
+        "g": 146,
+        "b": 112
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "P08",
+      "aliases": [
+        "P8"
+      ],
+      "series": "P",
+      "index": 8,
+      "hex": "#F0D958",
+      "rgb": {
+        "r": 240,
+        "g": 217,
+        "b": 88
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "P09",
+      "aliases": [
+        "P9"
+      ],
+      "series": "P",
+      "index": 9,
+      "hex": "#D9D9D9",
+      "rgb": {
+        "r": 217,
+        "g": 217,
+        "b": 217
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "P10",
+      "aliases": [],
+      "series": "P",
+      "index": 10,
+      "hex": "#D9C7EA",
+      "rgb": {
+        "r": 217,
+        "g": 199,
+        "b": 234
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "P11",
+      "aliases": [],
+      "series": "P",
+      "index": 11,
+      "hex": "#F3ECC9",
+      "rgb": {
+        "r": 243,
+        "g": 236,
+        "b": 201
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "P12",
+      "aliases": [],
+      "series": "P",
+      "index": 12,
+      "hex": "#E6EEF2",
+      "rgb": {
+        "r": 230,
+        "g": 238,
+        "b": 242
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "P13",
+      "aliases": [],
+      "series": "P",
+      "index": 13,
+      "hex": "#AACBEF",
+      "rgb": {
+        "r": 170,
+        "g": 203,
+        "b": 239
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "P14",
+      "aliases": [],
+      "series": "P",
+      "index": 14,
+      "hex": "#337680",
+      "rgb": {
+        "r": 51,
+        "g": 118,
+        "b": 128
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "P15",
+      "aliases": [],
+      "series": "P",
+      "index": 15,
+      "hex": "#668575",
+      "rgb": {
+        "r": 102,
+        "g": 133,
+        "b": 117
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "P16",
+      "aliases": [],
+      "series": "P",
+      "index": 16,
+      "hex": "#FEBF45",
+      "rgb": {
+        "r": 254,
+        "g": 191,
+        "b": 69
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "P17",
+      "aliases": [],
+      "series": "P",
+      "index": 17,
+      "hex": "#FEA324",
+      "rgb": {
+        "r": 254,
+        "g": 163,
+        "b": 36
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "P18",
+      "aliases": [],
+      "series": "P",
+      "index": 18,
+      "hex": "#FEB89F",
+      "rgb": {
+        "r": 254,
+        "g": 184,
+        "b": 159
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "P19",
+      "aliases": [],
+      "series": "P",
+      "index": 19,
+      "hex": "#FFFEEC",
+      "rgb": {
+        "r": 255,
+        "g": 254,
+        "b": 236
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "P20",
+      "aliases": [],
+      "series": "P",
+      "index": 20,
+      "hex": "#FEBECF",
+      "rgb": {
+        "r": 254,
+        "g": 190,
+        "b": 207
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "P21",
+      "aliases": [],
+      "series": "P",
+      "index": 21,
+      "hex": "#ECBEBF",
+      "rgb": {
+        "r": 236,
+        "g": 190,
+        "b": 191
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "P22",
+      "aliases": [],
+      "series": "P",
+      "index": 22,
+      "hex": "#E4A89F",
+      "rgb": {
+        "r": 228,
+        "g": 168,
+        "b": 159
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "P23",
+      "aliases": [],
+      "series": "P",
+      "index": 23,
+      "hex": "#A56268",
+      "rgb": {
+        "r": 165,
+        "g": 98,
+        "b": 104
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "Q01",
+      "aliases": [
+        "Q1"
+      ],
+      "series": "Q",
+      "index": 1,
+      "hex": "#F2A5E8",
+      "rgb": {
+        "r": 242,
+        "g": 165,
+        "b": 232
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "Q02",
+      "aliases": [
+        "Q2"
+      ],
+      "series": "Q",
+      "index": 2,
+      "hex": "#E9EC91",
+      "rgb": {
+        "r": 233,
+        "g": 236,
+        "b": 145
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "Q03",
+      "aliases": [
+        "Q3"
+      ],
+      "series": "Q",
+      "index": 3,
+      "hex": "#FFFF00",
+      "rgb": {
+        "r": 255,
+        "g": 255,
+        "b": 0
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "Q04",
+      "aliases": [
+        "Q4"
+      ],
+      "series": "Q",
+      "index": 4,
+      "hex": "#FFEBFA",
+      "rgb": {
+        "r": 255,
+        "g": 235,
+        "b": 250
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "Q05",
+      "aliases": [
+        "Q5"
+      ],
+      "series": "Q",
+      "index": 5,
+      "hex": "#76CEDE",
+      "rgb": {
+        "r": 118,
+        "g": 206,
+        "b": 222
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "R01",
+      "aliases": [
+        "R1"
+      ],
+      "series": "R",
+      "index": 1,
+      "hex": "#D50D21",
+      "rgb": {
+        "r": 213,
+        "g": 13,
+        "b": 33
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "R02",
+      "aliases": [
+        "R2"
+      ],
+      "series": "R",
+      "index": 2,
+      "hex": "#F92F83",
+      "rgb": {
+        "r": 249,
+        "g": 47,
+        "b": 131
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "R03",
+      "aliases": [
+        "R3"
+      ],
+      "series": "R",
+      "index": 3,
+      "hex": "#FD8324",
+      "rgb": {
+        "r": 253,
+        "g": 131,
+        "b": 36
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "R04",
+      "aliases": [
+        "R4"
+      ],
+      "series": "R",
+      "index": 4,
+      "hex": "#F8EC31",
+      "rgb": {
+        "r": 248,
+        "g": 236,
+        "b": 49
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "R05",
+      "aliases": [
+        "R5"
+      ],
+      "series": "R",
+      "index": 5,
+      "hex": "#35C75B",
+      "rgb": {
+        "r": 53,
+        "g": 199,
+        "b": 91
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "R06",
+      "aliases": [
+        "R6"
+      ],
+      "series": "R",
+      "index": 6,
+      "hex": "#238891",
+      "rgb": {
+        "r": 35,
+        "g": 136,
+        "b": 145
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "R07",
+      "aliases": [
+        "R7"
+      ],
+      "series": "R",
+      "index": 7,
+      "hex": "#19779D",
+      "rgb": {
+        "r": 25,
+        "g": 119,
+        "b": 157
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "R08",
+      "aliases": [
+        "R8"
+      ],
+      "series": "R",
+      "index": 8,
+      "hex": "#1A60C3",
+      "rgb": {
+        "r": 26,
+        "g": 96,
+        "b": 195
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "R09",
+      "aliases": [
+        "R9"
+      ],
+      "series": "R",
+      "index": 9,
+      "hex": "#9A56B4",
+      "rgb": {
+        "r": 154,
+        "g": 86,
+        "b": 180
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "R10",
+      "aliases": [],
+      "series": "R",
+      "index": 10,
+      "hex": "#FFDB4C",
+      "rgb": {
+        "r": 255,
+        "g": 219,
+        "b": 76
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "R11",
+      "aliases": [],
+      "series": "R",
+      "index": 11,
+      "hex": "#FFEBFA",
+      "rgb": {
+        "r": 255,
+        "g": 235,
+        "b": 250
+      },
+      "legacy_hex": [
+        "#FFEBFB"
+      ],
+      "source": "Asher",
+      "note": "Canonicalized from beadcolors; perler-beads uses #FFEBFB."
+    },
+    {
+      "code": "R12",
+      "aliases": [],
+      "series": "R",
+      "index": 12,
+      "hex": "#D8D5CE",
+      "rgb": {
+        "r": 216,
+        "g": 213,
+        "b": 206
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "R13",
+      "aliases": [],
+      "series": "R",
+      "index": 13,
+      "hex": "#55514C",
+      "rgb": {
+        "r": 85,
+        "g": 81,
+        "b": 76
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "R14",
+      "aliases": [],
+      "series": "R",
+      "index": 14,
+      "hex": "#9FE4DF",
+      "rgb": {
+        "r": 159,
+        "g": 228,
+        "b": 223
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "R15",
+      "aliases": [],
+      "series": "R",
+      "index": 15,
+      "hex": "#77CEE9",
+      "rgb": {
+        "r": 119,
+        "g": 206,
+        "b": 233
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "R16",
+      "aliases": [],
+      "series": "R",
+      "index": 16,
+      "hex": "#3ECFCA",
+      "rgb": {
+        "r": 62,
+        "g": 207,
+        "b": 202
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "R17",
+      "aliases": [],
+      "series": "R",
+      "index": 17,
+      "hex": "#4A867A",
+      "rgb": {
+        "r": 74,
+        "g": 134,
+        "b": 122
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "R18",
+      "aliases": [],
+      "series": "R",
+      "index": 18,
+      "hex": "#7FCD9D",
+      "rgb": {
+        "r": 127,
+        "g": 205,
+        "b": 157
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "R19",
+      "aliases": [],
+      "series": "R",
+      "index": 19,
+      "hex": "#CDE55D",
+      "rgb": {
+        "r": 205,
+        "g": 229,
+        "b": 93
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "R20",
+      "aliases": [],
+      "series": "R",
+      "index": 20,
+      "hex": "#E8C7B4",
+      "rgb": {
+        "r": 232,
+        "g": 199,
+        "b": 180
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "R21",
+      "aliases": [],
+      "series": "R",
+      "index": 21,
+      "hex": "#AD6F3C",
+      "rgb": {
+        "r": 173,
+        "g": 111,
+        "b": 60
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "R22",
+      "aliases": [],
+      "series": "R",
+      "index": 22,
+      "hex": "#6C372F",
+      "rgb": {
+        "r": 108,
+        "g": 55,
+        "b": 47
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "R23",
+      "aliases": [],
+      "series": "R",
+      "index": 23,
+      "hex": "#FEB872",
+      "rgb": {
+        "r": 254,
+        "g": 184,
+        "b": 114
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "R24",
+      "aliases": [],
+      "series": "R",
+      "index": 24,
+      "hex": "#F3C1C0",
+      "rgb": {
+        "r": 243,
+        "g": 193,
+        "b": 192
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "R25",
+      "aliases": [],
+      "series": "R",
+      "index": 25,
+      "hex": "#C9675E",
+      "rgb": {
+        "r": 201,
+        "g": 103,
+        "b": 94
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "R26",
+      "aliases": [],
+      "series": "R",
+      "index": 26,
+      "hex": "#D293BE",
+      "rgb": {
+        "r": 210,
+        "g": 147,
+        "b": 190
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "R27",
+      "aliases": [],
+      "series": "R",
+      "index": 27,
+      "hex": "#EA8CB1",
+      "rgb": {
+        "r": 234,
+        "g": 140,
+        "b": 177
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "R28",
+      "aliases": [],
+      "series": "R",
+      "index": 28,
+      "hex": "#9C87D6",
+      "rgb": {
+        "r": 156,
+        "g": 135,
+        "b": 214
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "T01",
+      "aliases": [
+        "T1"
+      ],
+      "series": "T",
+      "index": 1,
+      "hex": "#FFFFFF",
+      "rgb": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "Y01",
+      "aliases": [
+        "Y1"
+      ],
+      "series": "Y",
+      "index": 1,
+      "hex": "#FD6FB4",
+      "rgb": {
+        "r": 253,
+        "g": 111,
+        "b": 180
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "Y02",
+      "aliases": [
+        "Y2"
+      ],
+      "series": "Y",
+      "index": 2,
+      "hex": "#FEB481",
+      "rgb": {
+        "r": 254,
+        "g": 180,
+        "b": 129
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "Y03",
+      "aliases": [
+        "Y3"
+      ],
+      "series": "Y",
+      "index": 3,
+      "hex": "#D7FAA0",
+      "rgb": {
+        "r": 215,
+        "g": 250,
+        "b": 160
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "Y04",
+      "aliases": [
+        "Y4"
+      ],
+      "series": "Y",
+      "index": 4,
+      "hex": "#8BDBFA",
+      "rgb": {
+        "r": 139,
+        "g": 219,
+        "b": 250
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "Y05",
+      "aliases": [
+        "Y5"
+      ],
+      "series": "Y",
+      "index": 5,
+      "hex": "#E987EA",
+      "rgb": {
+        "r": 233,
+        "g": 135,
+        "b": 234
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "ZG1",
+      "aliases": [],
+      "series": "ZG",
+      "index": 1,
+      "hex": "#DAABB3",
+      "rgb": {
+        "r": 218,
+        "g": 171,
+        "b": 179
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "ZG2",
+      "aliases": [],
+      "series": "ZG",
+      "index": 2,
+      "hex": "#D6AA87",
+      "rgb": {
+        "r": 214,
+        "g": 170,
+        "b": 135
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "ZG3",
+      "aliases": [],
+      "series": "ZG",
+      "index": 3,
+      "hex": "#C1BD8D",
+      "rgb": {
+        "r": 193,
+        "g": 189,
+        "b": 141
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "ZG4",
+      "aliases": [],
+      "series": "ZG",
+      "index": 4,
+      "hex": "#96869F",
+      "rgb": {
+        "r": 150,
+        "g": 134,
+        "b": 159
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "ZG5",
+      "aliases": [],
+      "series": "ZG",
+      "index": 5,
+      "hex": "#8490A6",
+      "rgb": {
+        "r": 132,
+        "g": 144,
+        "b": 166
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "ZG6",
+      "aliases": [],
+      "series": "ZG",
+      "index": 6,
+      "hex": "#94BFE2",
+      "rgb": {
+        "r": 148,
+        "g": 191,
+        "b": 226
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "ZG7",
+      "aliases": [],
+      "series": "ZG",
+      "index": 7,
+      "hex": "#E2A9D2",
+      "rgb": {
+        "r": 226,
+        "g": 169,
+        "b": 210
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    },
+    {
+      "code": "ZG8",
+      "aliases": [],
+      "series": "ZG",
+      "index": 8,
+      "hex": "#AB91C0",
+      "rgb": {
+        "r": 171,
+        "g": 145,
+        "b": 192
+      },
+      "legacy_hex": [],
+      "source": "Asher",
+      "note": ""
+    }
+  ]
+}
