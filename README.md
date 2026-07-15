@@ -98,25 +98,6 @@ python -m pip install Pillow numpy reportlab pypdf
 
 其中 `pypdf` 主要用于测试和 PDF 文本验证。进行 PDF 视觉验收时，建议另外安装 Poppler，以使用 `pdfinfo` 和 `pdftoppm`。
 
-## 中文字体
-
-本仓库不包含微软雅黑、宋体等系统字体文件。运行电脑必须安装支持简体中文的字体。
-
-程序按以下顺序寻找字体：
-
-1. 环境变量 `MARD_CJK_FONT` 指定的 TTF、TTC 或 OTF；
-2. Windows：微软雅黑、黑体、宋体；
-3. macOS：苹方、冬青黑体；
-4. Linux：Noto Sans CJK、思源黑体、文泉驿。
-
-PowerShell 指定字体示例：
-
-```powershell
-$env:MARD_CJK_FONT = "C:\Windows\Fonts\msyh.ttc"
-```
-
-找不到可用字体时，程序会停止生成并显示中文解决方法，不会回退到可能出现方框或乱码的默认字体。
-
 ## 在 Codex 中使用
 
 安装后，可以直接向 Codex 提出类似请求：
@@ -278,15 +259,3 @@ python -X utf8 "$env:USERPROFILE\.codex\skills\.system\skill-creator\scripts\qui
 - 291 色完整性验证通过；
 - 单页和多页 PDF 中文重渲染检查通过；
 - 最终目录只包含一张 PNG 和一份 PDF。
-
-## 上传到 GitHub
-
-`mard-perler-pattern` 文件夹中的内容可以直接作为 GitHub 仓库上传。
-
-建议在公开发布前补充：
-
-- 仓库描述和截图；
-- 适合你分发需求的 `LICENSE`；
-- 如有需要，可增加 `.gitignore`，忽略运行时生成的 `work/`、`outputs/`、`tmp/` 和 `__pycache__/`。
-
-本项目不会把 Windows、macOS 或 Linux 的系统字体复制进仓库。
